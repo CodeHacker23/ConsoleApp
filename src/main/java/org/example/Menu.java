@@ -10,6 +10,7 @@ public class Menu {
         while (true) {
             System.out.println("1 - add word");
             System.out.println("2 - list words");
+
             System.out.println("3 - repetition");
             System.out.println("4 or ... - exit");
 
