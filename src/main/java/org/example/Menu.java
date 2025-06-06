@@ -12,7 +12,8 @@ public class Menu {
             System.out.println("2 - list words");
 
             System.out.println("3 - repetition");
-            System.out.println("4 or ... - exit");
+            System.out.println("7 - Statistics");
+            System.out.println("8 or ... - exit");
 
             String command = scanner.nextLine();
             switch (command) {
@@ -24,6 +25,12 @@ public class Menu {
                     printWord(DataBase.list);
                 }
                 case "3" -> {
+
+
+                }
+
+//              Views number of words already learned by the user
+                case "7" -> {
 
 
                 }
